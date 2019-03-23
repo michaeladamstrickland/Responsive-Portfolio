@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: 300;
+    background: #222;
+
+}
+#vertical-line{
+    width: 1px;
+    height: 500px;
+}
+.logo{
+    background-color: #55d6aa;
+    float: left;
+    margin: 30px;
+}
+.container{
+    width: 88%;
+    margin: 40px;
+    float: right;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+img{
+    float: left;
+    margin: 20px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.box{
+    background-image: url()
+}
+h1{
+    float: left;
+    background-color: #55d6aa;
+    
+  
+}
+
+h2{
+    color: blue;
+    align-items: left;
+    
+}
+nav{
+    float: right;
+}
+
+nav ul {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+nav li {
+display: inline-block;
+margin-left: 70px;
+padding-top: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #000
+}
+
+nav a:hover::before {
+    content: ";
+    display: block;
+    height: 5px;
+    background-color: #444;
+
+    position: absoulte;
+    top:0;
+    width: 0%
+
+    transition: all ease-in-out 25ms
+
+    nav a:hover::before {
+        width: 100%
+    }
+
+form{
+    float: left;
+    margin: 30px;
+}
+p {
+    line-height: 30px;
+    color: white;
+    float: right;
+
+ }
+footer{
+    
+    color: black;
+    background-color: teal;
+}
